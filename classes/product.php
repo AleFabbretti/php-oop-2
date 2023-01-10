@@ -6,7 +6,7 @@
         public $price;
         public $type;
 
-        public function __construct($_category, $_image, $_name, $_price, $_type){
+        public function __construct($_category, $_image, $_name, float $_price, $_type){
             $this->category = $_category;
             $this->image = $_image;
             $this->name = $_name;
