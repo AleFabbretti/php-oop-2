@@ -10,7 +10,7 @@ $cat = new Category("Gatto", "<i class=\"fa-solid fa-cat\"></i>");
 
 
 $food = new Food("https://shop-cdn-m.mediazs.com/bilder/royal/canin/maxi/adult/crocchette/per/cani/6/800/icon_topseller_1_2022_02_24t122255_148_6.jpg", "Royal Canin", 25, $dog);
-$food->setExpiration("11/02/2023");
+$food->setExpiration("25/05/2023");
 
 $toy = new Toy("https://shop-cdn-m.mediazs.com/bilder/gioco/per/gatti/karlie/palline/in/gomma/crepla/9/800/307996_karlie_katzenspielzeug_moosgummiball_hs_02_9.jpg", "palle giocattolo", 6, $cat);
 $toy->setMaterial("plastica");
