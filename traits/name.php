@@ -1,4 +1,5 @@
 <?php
-    trait Name{
-        public $name;
-    }
+
+trait Name {
+  public $name;
+}

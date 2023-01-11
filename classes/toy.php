@@ -1,13 +1,16 @@
-<?php 
-    require_once __DIR__ . "/product.php";
+<?php
+require_once __DIR__ . "/Product.php";
 
-    class toy extends Product{
-        public $materials;
+class Toy extends Product {
+  private $material;
 
-        public function __construct($_category, $_image, $_name, $_price, $_type, $_materials)
-        {
-            parent::__construct($_category, $_image, $_name, $_price, $_type);
-            $this->materials = $_materials;
-        }
-    }
-?>
+  public function setMaterial($material)
+  {
+    $this->material = $material;
+  }
+  public function getMaterial()
+  {
+    
+    return $this->material;
+  }
+}
